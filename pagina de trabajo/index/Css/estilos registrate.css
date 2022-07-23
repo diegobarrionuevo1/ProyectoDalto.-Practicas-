@@ -1,0 +1,194 @@
+
+.Fondogeneral{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    object-fit: cover;    
+}
+
+.opacidadfondo{
+    background-color: rgba(0, 0, 0, 0.24);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover; 
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;    
+}
+
+a:visited{
+    color: aliceblue;
+}
+a:link{
+    color: aliceblue;
+}
+
+/*grid index*/
+
+.registro-container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "article article"
+    "footer footer";
+    grid-template-rows: 150px auto 100px;
+    min-height: 100vh;
+}
+
+.registro-header{
+    grid-area: header;
+}
+
+.registro-article{
+    grid-area: article;
+}
+
+
+.registro-footer{
+    grid-area: footer;
+    display: flex;
+    background-color: #00000099;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 50px;
+    border: solid violet ;
+}
+
+
+/*grid nav*/
+
+.nav {
+    margin: 0px 50px;
+    height: 150px;
+    display: grid;
+    grid-template-columns:  250px 1fr repeat(3, 250px) ;
+    grid-template-rows: 1fr;
+
+}
+
+.nav__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    object-fit: cover;
+} 
+
+
+.nav__link:first-child{
+    grid-column: span 2;
+    justify-self: start;    
+}
+
+
+.nav__link h1{ 
+    color: aliceblue;
+    font-size: 45px;
+    
+}
+
+.nav__link.ingresar{ 
+    color: aliceblue;
+    font-size: 24px;
+    
+}
+.nav__link a{
+    text-decoration: none;    
+}
+
+.nav__link a:visited{
+    color: aliceblue;
+}
+.nav__link a:link{
+    color: aliceblue;
+}
+
+
+.nav__link.titulo{    
+    grid-column: 1/7;
+    justify-self: center;
+    align-self: center;
+    font-family: "Tangerine";
+}
+
+/*Esto es el fondo del nav*/
+
+.VideoFondo  {
+    flex-shrink: 0;
+    height: 150px ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;    
+}
+
+.nav__container{
+    background-color: #00000099 ;
+}
+
+
+/*grid article*/
+
+.registro-article{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 60vw 40vw;
+    grid-template-rows: 100% ;
+}
+.opacidadfondo-article{
+    border: solid red;
+    background-color: #00000099;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Formularios */
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 35vh;
+    height: 50vh;
+    background-color: rgba(255, 255, 255, 0.404) ;
+    padding: 20px;
+    border-radius: 10%;
+    grid-column: 2/3;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.form-imputs{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.form-imputs input {
+    background-color: rgba(255, 255, 255, 0.562);
+    border: none;
+
+}
+
+.form-imputs button{
+    background-color: #0f4c75bb;
+    margin-top: 10px;
+}
