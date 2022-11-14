@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+
+.juego__container{
+    display: grid;
+    margin: 20%;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    border: solid black ;
+}
+
+.cartas{
+    border: ;
+}

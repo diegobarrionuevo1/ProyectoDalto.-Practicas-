@@ -1,0 +1,61 @@
+Prueba de conocimientos 1
+
+1) Programa donde se introducen 3 números y muestra cual es el mayor de los 3.
+
+2) Crear programa donde se introduce una temperatura en ºCelsius sale el resultado en ºFahrenheit
+
+3) Programa para sacar promedio de un array de números.
+
+4) Programa donde debe darse un arreglo con números y el programa debe responder con el número mínimo y máximo.
+
+5) Programa donde se pasa la cantidad de mujeres y la cantidad de hombres de un salon y se calcula el porcentaje de mujeres y el porcentaje de hombres.
+
+6) Crear script que pida cadenas de texto hasta que se escriba: "cancelar", si se escribe cancelar se deben mostrar todas las cadenas concatenadas con un guión.
+
+7) Crear programa que muestre los divisores comunes de dos números dados
+
+8) Escribir un programa que escriba en pantalla los divisores comunes de dos números dados.
+
+9) Crear programa que nos diga si un número dado es primo 
+o no.
+
+10) Realizar programa donde la computadora "piensa" un 
+número aleatorio entre 1 y 100. El usuario debe
+adivinarlo con las pistas de "es mayor" o "es menor" 
+en un número determinado de intentos.
+
+
+11) Crear funcion que al darle la cantidad de días 
+que hemos vivido, nos devuelva un string con los  años,
+ meses y días vividos, ejemplo: si le pasamos 10000, nos 
+ devuelve: "Ha vivido 27 años, 4 meses y 25 días"
+
+
+
+EJERCICIOS UN POCO MÁS COMPLEJOS:
+
+
+12) Crear funcion que calcule la hipotenusa de un triangulo (en CM) 
+teniendo cateto A y Cateto B usando el Teorema de pitagoras, la formula 
+es: 
+
+ - Cateto A al cuadrado + Cateto B al cuadrado = Hipotenusa al cuadrado
+
+
+
+13) Crear array bidimensional que contenga varias coordenadas 
+e iterar sobre el mismo mostrando cada coordenada con su
+respectivo valor, ejemplo:
+
+                Coordenada 1:   Y = 34.6
+                                X = 12.9
+
+                Coordenada 2:   Y = 92.4
+                                X = 52.1
+
+
+14) Crear un sistema de búsqueda de elementos 
+(ej: sistema de búsqueda
+ de peliculas)
+
+15) Crear reloj de agujas funcional.

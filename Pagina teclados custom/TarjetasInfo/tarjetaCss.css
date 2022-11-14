@@ -1,0 +1,57 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@ Estilos tarjetas @@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+/*----------Imagen tarjeta------------*/
+
+
+.imagenContainer{
+    margin-bottom: 5%;
+    overflow: hidden;
+    min-height: 50vh;
+}
+
+.imagenTarjeta{
+    height: 50vh;
+    object-fit: cover;
+}
+
+
+/*----------Texto tarjeta------------*/
+.textContainer{
+    max-height: 30vh;
+    overflow: hidden;
+}
+
+.tituloTarjeta{
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 4%;
+}
+
+.descripcionTarjeta{
+    font-family: sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+/*----------Botones tarjeta------------*/
+
+
+.botonesContainer{
+    display: flex;
+    justify-content: end;
+    margin-top: 25px;
+}
+
+.btn{
+    border: solid ;
+    padding: 7px 10px;
+    margin-right: 3%;
+}
