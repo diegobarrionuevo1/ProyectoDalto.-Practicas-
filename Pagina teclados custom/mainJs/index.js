@@ -41,7 +41,20 @@ const crearNav = () => {
     liGuia.appendChild (linkGuia)
     liTienda.appendChild (linkTienda)
 
+    let ubicacionPrincipal = window.pageYOffset;
+    window.onscroll = function(){
 
+    encabezado.classList.toggle('down', window.scrollY > 0);
+    let desplazamientoActual = window.pageYOffset;
+    if(ubicacionPrincipal >= (desplazamientoActual)){
+        encabezado.style.top = "0";
+    } 
+    else{
+        encabezado.style.top = "-125px"
+    }
+    ubicacionPrincipal = desplazamientoActual;
+
+} 
     
     // estilos
     iconMenu.classList.add ("menuBtn")

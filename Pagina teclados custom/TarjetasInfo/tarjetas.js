@@ -12,7 +12,7 @@ let datos = [
     {
         "imagen": "imagenes/teclado.jpg",
         "titulo": "guille",
-        "descripcion" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa cumque ea, doloremque dicta sit culpa velit voluptatibus",
+        "descripcion" : "bajksdakjsbdjkasbdkbas",
         "moreInfo" : "#",
         "orientacion" : "derecha"
     },
